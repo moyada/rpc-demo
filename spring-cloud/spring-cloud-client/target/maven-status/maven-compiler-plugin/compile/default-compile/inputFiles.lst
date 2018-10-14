@@ -1,0 +1,5 @@
+/Users/xueyikang/JavaProjects/rpc-demo/spring-cloud/spring-cloud-client/src/main/java/cn/moyada/rpc/demo/spring/cloud/client/config/FeignConfig.java
+/Users/xueyikang/JavaProjects/rpc-demo/spring-cloud/spring-cloud-client/src/main/java/cn/moyada/rpc/demo/spring/cloud/client/spi/TestControllerFeign.java
+/Users/xueyikang/JavaProjects/rpc-demo/spring-cloud/spring-cloud-client/src/main/java/cn/moyada/rpc/demo/spring/cloud/client/controller/TestController.java
+/Users/xueyikang/JavaProjects/rpc-demo/spring-cloud/spring-cloud-client/src/main/java/cn/moyada/rpc/demo/spring/cloud/client/ClientApplication.java
+/Users/xueyikang/JavaProjects/rpc-demo/spring-cloud/spring-cloud-client/src/main/java/cn/moyada/rpc/demo/spring/cloud/client/service/TestService.java

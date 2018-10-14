@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: FeignTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.75 s <<< FAILURE! - in FeignTest
+test(FeignTest)  Time elapsed: 1.392 s  <<< ERROR!
+java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: SPRINGCLOUDSERVER
+	at FeignTest.test(FeignTest.java:56)
+Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: SPRINGCLOUDSERVER
+	at FeignTest.test(FeignTest.java:56)
+

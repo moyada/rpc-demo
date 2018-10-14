@@ -10,4 +10,4 @@ eureka:
 #    instance-id: ${spring.application.name}:8761
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://127.0.0.1:8761/eureka

@@ -1,14 +1,15 @@
 package cn.moyada.rpc.demo.spring.cloud.client.service;
 
 
-import cn.moyada.rpc.demo.spring.cloud.service.api.TestControllerFeign;
+import cn.moyada.rpc.demo.spring.cloud.client.spi.TestControllerFeign;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  * @author xueyikang
  * @since 1.0
  **/
-//@Service
+@Service
 public class TestService {
 
     @Autowired

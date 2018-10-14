@@ -1,4 +1,4 @@
-package cn.moyada.spring.cloud.service.core;
+package cn.moyada.spring.cloud.service;
 
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;

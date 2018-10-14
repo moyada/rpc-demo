@@ -2,3 +2,5 @@ target/
 classes/
 .idea
 *.iml
+
+git rm --cached 'spring-cloud/discovery-service/discovery-service.iml'

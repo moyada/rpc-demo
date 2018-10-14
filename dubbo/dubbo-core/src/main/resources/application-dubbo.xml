@@ -13,8 +13,8 @@
     <dubbo:monitor protocol="registry"/>
     <dubbo:consumer timeout="${dubbo.timeout}" />
 
-    <bean id="userService" class="cn.moyada.dubbo.test.core.UserServiceImpl"/>
+    <bean id="userService" class="cn.moayda.rpc.demo.dubbo.core.UserServiceImpl"/>
 
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:service interface="cn.moyada.dubbo.test.api.UserService" ref="userService"/>
+    <dubbo:service interface="cn.moayda.rpc.demo.dubbo.api.UserService" ref="userService"/>
 </beans>

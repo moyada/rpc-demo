@@ -1,4 +1,4 @@
-package cn.moyada.spring.cloud.service.core;
+package cn.moyada.spring.cloud.service;
 
 import feign.Request;
 import feign.RequestTemplate;

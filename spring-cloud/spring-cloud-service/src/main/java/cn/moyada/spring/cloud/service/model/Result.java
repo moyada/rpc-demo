@@ -1,4 +1,4 @@
-package cn.moyada.spring.cloud.service.core.model;
+package cn.moyada.spring.cloud.service.model;
 
 import java.io.Serializable;
 

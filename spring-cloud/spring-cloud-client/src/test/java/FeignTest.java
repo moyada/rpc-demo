@@ -1,5 +1,5 @@
 import cn.moyada.rpc.demo.spring.cloud.client.ClientApplication;
-import cn.moyada.rpc.demo.spring.cloud.service.api.TestControllerFeign;
+import cn.moyada.rpc.demo.spring.cloud.client.spi.TestControllerFeign;
 import feign.*;
 import feign.codec.Decoder;
 import feign.codec.Encoder;
@@ -54,7 +54,7 @@ public class FeignTest implements ApplicationContextAware {
 
         TestControllerFeign testControllerFeign = builder.target(TestControllerFeign.class, "http://SPRINGCLOUDSERVER");
 
-        String s = testControllerFeign.get(123L, "dfs");
+        String s = testControllerFeign.getInfo("dfs");
         System.out.println(s);
 //        System.out.println(reflectiveFeign.newInstance());
     }

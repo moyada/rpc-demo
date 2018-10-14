@@ -1,6 +1,6 @@
-package cn.moyada.spring.cloud.service.core.controller;
+package cn.moyada.spring.cloud.service.controller;
 
-import cn.moyada.spring.cloud.service.core.model.Result;
+import cn.moyada.spring.cloud.service.model.Result;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;

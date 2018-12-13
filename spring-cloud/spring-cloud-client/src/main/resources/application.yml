@@ -7,7 +7,7 @@ eureka:
   instance:
     hostname: ${spring.application.name}
     preferIpAddress: true
-#    instance-id: ${spring.application.name}:8761
+    instance-id: ${spring.application.name}:0
   client:
     serviceUrl:
 #      defaultZone:
